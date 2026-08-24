@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyrim Magic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="container">
+                <div class="inner_header">
+                    <div class="header_logo">
+                        <div class="logo_link"><img src="images/hero/logo/logo_header.webp" alt="Skyrim Logo"></div>
+                    </div>
+                    <div class="header_nav">
+                        <div class="nav_link">world</div>
+                        <div class="nav_link">lore</div>
+                        <div class="nav_link">factions</div>
+                        <div class="nav_link">characters</div>
+                        <div class="nav_link">artifacts</div>
+                        <div class="nav_link nav_btn">join</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero">
+            <div class="container">
+                <div class="inner_hero">
+                </div>
+            </div>
+        </div>
+
+        <div class="magic">
+            <div class="container">
+                <div class="inner_magic">
+                    <div class="magic_divider space-70-110 fade-in-element">
+                        <div class="divider_line left"></div>
+                        <div class="divider_rhombus"></div>
+                        <div class="divider_line right"></div>
+                    </div>
+
+                    <div class="magic_content">
+                        <div class="magic_info fade-in-element">
+                            <div class="magic_subtitle">magic</div>
+                            <div class="magic_title" id="schoolTitle">schools</div>
+                            <div class="magic_desc" id="schoolDesc">
+                                skyrim has five magic schools grouped under the mage constellation
+                            </div>
+
+                            <div class="school_buttons" id="schoolButtons">
+                                <div class="school_btn" data-school="destruction">destruction</div>
+                                <div class="school_btn" data-school="restoration">restoration</div>
+                                <div class="school_btn" data-school="conjuration">conjuration</div>
+                                <div class="school_btn" data-school="illusion">illusion</div>
+                                <div class="school_btn" data-school="alteration">alteration</div>
+                            </div>
+
+                            <div class="spell_details">
+                                <div class="details_header">
+                                    <div class="details_line"></div>
+                                    <div class="details_text">
+                                        <div class="spell_name" id="spellName">name</div>
+                                        <div class="spell_type" id="spellType">type</div>
+                                        <div class="spell_desc" id="spellDesc">the text of the selected spell will appear here</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="spells_list" id="spellsList">
+                            </div>
+                        </div>
+
+                        <div class="magic_video_wrapper fade-in-element">
+                            <div class="video_rhombus_outer">
+                                <div class="video_rhombus_inner">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="magic_divider space-110-110 fade-in-element">
+                        <div class="divider_line left"></div>
+                        <div class="divider_rhombus"></div>
+                        <div class="divider_line right"></div>
+                    </div>
+
+                    <div class="magic_content shout_content">
+                        <div class="magic_info fade-in-element">
+                            <div class="magic_subtitle">thu'um</div>
+                            <div class="magic_title">dragon shouts</div>
+                            <div class="magic_desc">
+                                the thu'um is skyrim's dragon shout magic powered by tonal voice
+                            </div>
+
+                            <div class="spell_details">
+                                <div class="details_header">
+                                    <div class="details_line"></div>
+                                    <div class="details_text">
+                                        <div class="spell_name active dragon-runes" id="shoutDragonWord">dragon word</div>
+                                        <div class="spell_type" id="shoutTranslation">translation</div>
+                                        <div class="spell_desc" id="shoutDesc">the text of the selected spell will appear here</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="spells_list shouts_list" id="shoutsList">
+                            </div>
+                        </div>
+
+                        <div class="magic_video_wrapper fade-in-element">
+                            <div class="video_rhombus_outer">
+                                <div class="video_rhombus_inner">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="magic_divider space-70-110 fade-in-element">
+                        <div class="divider_line left"></div>
+                        <div class="divider_rhombus"></div>
+                        <div class="divider_line right"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="history">
+            <div class="container">
+                <div class="inner_history">
+                    <div class="magic_divider space-110-70 fade-in-element">
+                        <div class="divider_line left"></div>
+                        <div class="divider_rhombus"></div>
+                        <div class="divider_line right"></div>
+                    </div>
+
+                    <div class="history_slider_section fade-in-element">
+                        <div class="history_slider_container">
+                            <div class="slider_arrow slider_prev" id="sliderPrev"></div>
+                            
+                            <div class="history_slide_content">
+                                <div class="history_text_block">
+                                    <div class="history_title" id="historyTitle">civil war</div>
+                                    <div class="history_desc" id="historyDesc">
+                                        loading...
+                                    </div>
+                                </div>
+                                <div class="history_image_wrapper">
+                                    <img src="" alt="History Slide" id="historyImage">
+                                </div>
+                            </div>
+
+                            <div class="slider_arrow slider_next" id="sliderNext"></div>
+                        </div>
+                    </div>
+
+                    <div class="magic_divider space-70-110 fade-in-element">
+                        <div class="divider_line left"></div>
+                        <div class="divider_rhombus"></div>
+                        <div class="divider_line right"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="trailer">
+            <div class="container">
+                <div class="inner_trailer fade-in-element">
+                    <div class="trailer_title">
+                        The Elder Scrolls V<br>
+                        Skyrim Anniversary Edition Trailer
+                    </div>
+                    <div class="trailer_frame_wrapper" id="trailerWrapper">
+                        <div class="trailer_poster" id="trailerPoster">
+                            <img src="images/hero/intro.webp" alt="Skyrim Trailer Preview" class="trailer_image">
+                            <div class="trailer_play_btn">
+                                <svg viewBox="0 0 68 48" width="68" height="48">
+                                    <path class="yt-btn-bg" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.39,11.71,0,24,0,24s0.39,12.29,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.61,36.29,68,24,68,24S67.61,11.71,66.52,7.74z" fill="#f00"></path>
+                                    <path d="M 45,24 27,14 27,34 z" fill="#fff"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <iframe id="trailerIframe" src="" title="The Elder Scrolls V: Skyrim Anniversary Edition Trailer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="inner_footer fade-in-element">
+                    <div class="footer_logo" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+                        <img src="images/hero/logo/logo_footer.webp" alt="Skyrim Footer Logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

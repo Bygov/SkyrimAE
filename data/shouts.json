@@ -1,0 +1,193 @@
+{
+    "shouts": [
+        {
+            "name": "animal allegiance",
+            "dragonWord": "raan mir tah",
+            "translation": "animal allegiance pack",
+            "desc": "summons wild beasts to fight in your defense.",
+            "image": "images/shouts/animal_allegiance.webp"
+        },
+        {
+            "name": "aura whisper",
+            "dragonWord": "laas yah nir",
+            "translation": "life seek hunt",
+            "desc": "reveals the life forces of all nearby entities through walls.",
+            "image": "images/shouts/aura_whisper.webp"
+        },
+        {
+            "name": "battle fury",
+            "dragonWord": "mid vur shaan",
+            "translation": "loyal valor inspire",
+            "desc": "enchants nearby allies' weapons to attack faster.",
+            "image": "images/shouts/battle_fury.webp"
+        },
+        {
+            "name": "become ethereal",
+            "dragonWord": "feim zii gron",
+            "translation": "fade spirit bind",
+            "desc": "turns you ethereal, making you immune to all damage and unable to attack.",
+            "image": "images/shouts/become_ethereal.webp"
+        },
+        {
+            "name": "bend will",
+            "dragonWord": "gol hah dov",
+            "translation": "earth mind dragon",
+            "desc": "bends stones, animals, people, and dragons to your will.",
+            "image": "images/shouts/bend_will.webp"
+        },
+        {
+            "name": "call dragon",
+            "dragonWord": "od ah viing",
+            "translation": "snow hunter wing",
+            "desc": "summons the dragon odahviing to fight alongside you.",
+            "image": "images/shouts/call_dragon.webp"
+        },
+        {
+            "name": "call of valor",
+            "dragonWord": "hun kaal zoor",
+            "translation": "hero champion legend",
+            "desc": "summons a hero from sovngarde to aid you in combat.",
+            "image": "images/shouts/call_of_valor.webp"
+        },
+        {
+            "name": "clear skies",
+            "dragonWord": "lok vah koor",
+            "translation": "sky spring summer",
+            "desc": "clears away fog, mist, and bad weather with a touch of the clear skies.",
+            "image": "images/shouts/clear_skies.webp"
+        },
+        {
+            "name": "cyclone",
+            "dragonWord": "ven gaar nos",
+            "translation": "wind unleash strike",
+            "desc": "creates a whirling cyclone that throws enemies into the air.",
+            "image": "images/shouts/cyclone.webp"
+        },
+        {
+            "name": "disarm",
+            "dragonWord": "zun haal viik",
+            "translation": "weapon hand defeat",
+            "desc": "rips weapons out of opponents' hands.",
+            "image": "images/shouts/disarm.webp"
+        },
+        {
+            "name": "dismay",
+            "dragonWord": "faas ru maar",
+            "translation": "fear run terror",
+            "desc": "sends a wave of terror that forces weak enemies to flee in panic",
+            "image": "images/shouts/dismay.webp"
+        },
+        {
+            "name": "dragon aspect",
+            "dragonWord": "mul qah diiv",
+            "translation": "strength armor wyrm",
+            "desc": "grants dragon armor, heavier physical blows, and stronger shouts once per day.",
+            "image": "images/shouts/dragon_aspect.webp"
+        },
+        {
+            "name": "dragonrend",
+            "dragonWord": "joor zah frul",
+            "translation": "mortal finite temporary",
+            "desc": "forces flying dragons to land by lashing out at their souls.",
+            "image": "images/shouts/dragonrend.webp"
+        },
+        {
+            "name": "drain vitality",
+            "dragonWord": "gaan lah haas",
+            "translation": "stamina magicka health",
+            "desc": "drains health, magicka, and stamina from targets over time.",
+            "image": "images/shouts/drain_vitality.webp"
+        },
+        {
+            "name": "elemental fury",
+            "dragonWord": "su grah dun",
+            "translation": "air battle grace",
+            "desc": "drastically surges weapon attack speed in a flurry of blows.",
+            "image": "images/shouts/elemental_fury.webp"
+        },
+        {
+            "name": "fire breath",
+            "dragonWord": "yol toor shul",
+            "translation": "fire inferno sun",
+            "desc": "exhales a burst of fire dealing direct damage.",
+            "image": "images/shouts/fire_breath.webp"
+        },
+        {
+            "name": "frost breath",
+            "dragonWord": "fo krah diin",
+            "translation": "frost cold freeze",
+            "desc": "exhales a blizzard that damages and slows targets.",
+            "image": "images/shouts/frost_breath.webp"
+        },
+        {
+            "name": "ice form",
+            "dragonWord": "iiz slen nus",
+            "translation": "ice flesh statue",
+            "desc": "encases enemies in solid ice, paralyzing them.",
+            "image": "images/shouts/ice_form.webp"
+        },
+        {
+            "name": "kyne's peace",
+            "dragonWord": "kaan drem ov",
+            "translation": "kyne peace trust",
+            "desc": "calms wild animals, removing their desire to fight or flee.",
+            "image": "images/shouts/kynes_peace.webp"
+        },
+        {
+            "name": "marked for death",
+            "dragonWord": "krii lun aus",
+            "translation": "kill leech suffer",
+            "desc": "continuously drains an enemy's health and reduces their armor rating.",
+            "image": "images/shouts/marked_for_death.webp"
+        },
+        {
+            "name": "soul tear",
+            "dragonWord": "rii vaaz zol",
+            "translation": "essence tear zombie",
+            "desc": "deals heavy damage, rips the soul out of a target, and reanimates the corpse.",
+            "image": "images/shouts/soul_tear.webp"
+        },
+        {
+            "name": "slow time",
+            "dragonWord": "tiid klo ul",
+            "translation": "time sand eternity",
+            "desc": "slows down time around you while keeping your speed intact.",
+            "image": "images/shouts/slow_time.webp"
+        },
+        {
+            "name": "storm call",
+            "dragonWord": "strun bah qo",
+            "translation": "storm wrath lightning",
+            "desc": "summons a thunderous lightning storm that strikes nearby targets.",
+            "image": "images/shouts/storm_call.webp"
+        },
+        {
+            "name": "summon durnehviir",
+            "dragonWord": "dur neh viir",
+            "translation": "curse never dying",
+            "desc": "summons the undead dragon durnehviir from the soul cairn.",
+            "image": "images/shouts/summon_durnehviir.webp"
+        },
+        {
+            "name": "throw voice",
+            "dragonWord": "zul mey gut",
+            "translation": "voice fool far",
+            "desc": "throws a voice to a distant point to distract enemies.",
+            "image": "images/shouts/throw_voice.webp"
+        },
+        {
+            "name": "unrelenting force",
+            "dragonWord": "fus ro dah",
+            "translation": "force balance push",
+            "desc": "emits a powerful blast of force that staggers or hurls back targets.",
+            "image": "images/shouts/unrelenting_force.webp"
+        },
+        {
+            "name": "whirlwind sprint",
+            "dragonWord": "wuld nah kest",
+            "translation": "whirlwind fury tempest",
+            "desc": "propels you instantly forward at extreme and unstoppable speed.",
+            "image": "images/shouts/whirlwind_sprint.webp"
+        }
+    ]
+}

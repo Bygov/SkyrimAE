@@ -1,0 +1,603 @@
+{
+  "destruction": {
+    "desc": "Harnesses fire, frost, and shock elements to inflict direct damage",
+    "spells": [
+      {
+        "name": "Flames",
+        "type": "Fire",
+        "desc": "Unleashes a powerful gout of fire, dealing 8 devastating DPS."
+      },
+      {
+        "name": "Firebolt",
+        "type": "Fire",
+        "desc": "Launches a blazing bolt of fire, dealing 25 heavy damage."
+      },
+      {
+        "name": "Ignite",
+        "type": "Fire",
+        "desc": "Unleashes a fierce flame blast, dealing 4 DPS over 15 seconds."
+      },
+      {
+        "name": "Fire Rune",
+        "type": "Fire",
+        "desc": "Deploys a deadly proximity trap, exploding for 50 massive damage."
+      },
+      {
+        "name": "Fireball",
+        "type": "Fire",
+        "desc": "Explosive projectile dealing 40–60 damage in a 15–20 ft radius."
+      },
+      {
+        "name": "Flame Cloak",
+        "type": "Fire",
+        "desc": "Ignites a searing melee-range aura, continuously dealing 8 DPS over 60s."
+      },
+      {
+        "name": "Incinerate",
+        "type": "Fire",
+        "desc": "Hurls a massive fire blast, dealing 60–90 heavy damage to targets."
+      },
+      {
+        "name": "Wall of Flames",
+        "type": "Fire",
+        "desc": "Wields a destructive wall of fire that scorches enemies for 50 DPS."
+      },
+      {
+        "name": "Fire Storm",
+        "type": "Fire",
+        "desc": "Caster-centered explosion dealing up to 100 damage."
+      },
+      {
+        "name": "Frostbite",
+        "type": "Frost",
+        "desc": "Blasts the target with bitter frost, dealing 8 DPS to Health and Stamina."
+      },
+      {
+        "name": "Freeze",
+        "type": "Frost",
+        "desc": "Ice spike dealing 20 damage to Health/Stamina and slowing target for 15s."
+      },
+      {
+        "name": "Ice Spike",
+        "type": "Frost",
+        "desc": "Ice projectile dealing 25 damage to Health and Stamina."
+      },
+      {
+        "name": "Frost Rune",
+        "type": "Frost",
+        "desc": "Proximity trap exploding for 50 damage to Health/Stamina and slowing targets."
+      },
+      {
+        "name": "Ice Storm",
+        "type": "Frost",
+        "desc": "Freezing whirlwind dealing 40 DPS to Health and Stamina."
+      },
+      {
+        "name": "Frost Cloak",
+        "type": "Frost",
+        "desc": "Melee-range aura dealing 8 DPS to Health and Stamina for 60s."
+      },
+      {
+        "name": "Icy Spear",
+        "type": "Frost",
+        "desc": "Heavy ice spear dealing 60–90 damage to Health and Stamina."
+      },
+      {
+        "name": "Wall of Frost",
+        "type": "Frost",
+        "desc": "Creates a frost wall dealing 50 DPS to Health and Stamina."
+      },
+      {
+        "name": "Blizzard",
+        "type": "Frost",
+        "desc": "Caster-centered storm dealing 20 DPS to Health and Stamina for 10s."
+      },
+      {
+        "name": "Sparks",
+        "type": "Shock",
+        "desc": "Lightning stream dealing 8 DPS to Health and Magicka."
+      },
+      {
+        "name": "Lightning Bolt",
+        "type": "Shock",
+        "desc": "Lightning bolt dealing 25 damage to Health and 12.5 to Magicka."
+      },
+      {
+        "name": "Lightning Rune",
+        "type": "Shock",
+        "desc": "Proximity trap exploding for 50 damage to Health and 25 to Magicka."
+      },
+      {
+        "name": "Chain Lightning",
+        "type": "Shock",
+        "desc": "Bouncing bolt dealing 40–60 damage to Health and 20–30 to Magicka."
+      },
+      {
+        "name": "Lightning Cloak",
+        "type": "Shock",
+        "desc": "Melee-range aura dealing 8 DPS to Health and 4 to Magicka for 60s."
+      },
+      {
+        "name": "Thunderbolt",
+        "type": "Shock",
+        "desc": "Heavy shock blast dealing 60–90 damage to Health and 30–45 to Magicka."
+      },
+      {
+        "name": "Wall of Storms",
+        "type": "Shock",
+        "desc": "Creates a shock wall dealing 50 DPS to Health and 25 to Magicka."
+      },
+      {
+        "name": "Lightning Storm",
+        "type": "Shock",
+        "desc": "Continuous beam dealing 75 DPS to Health and 37.5 to Magicka."
+      }
+    ]
+  },
+  "restoration": {
+    "desc": "Restores vital health and magicka while warding off attacks and undead",
+    "spells": [
+      { "name": "Healing", "type": "Healing", "desc": "Heals caster 10 HP/s." },
+      {
+        "name": "Fast Healing",
+        "type": "Healing",
+        "desc": "Heals caster 50 HP."
+      },
+      {
+        "name": "Healing Hands",
+        "type": "Healing",
+        "desc": "Heals target 10 HP/s (living only)."
+      },
+      {
+        "name": "Close Wounds",
+        "type": "Healing",
+        "desc": "Heals caster 100 HP."
+      },
+      {
+        "name": "Heal Other",
+        "type": "Healing",
+        "desc": "Heals target 75 HP (living only)."
+      },
+      {
+        "name": "Grand Healing",
+        "type": "Healing",
+        "desc": "Heals everyone nearby 200 HP (living only)."
+      },
+      {
+        "name": "Lesser Ward",
+        "type": "Wards",
+        "desc": "+40 Armor, blocks up to 40 spell damage."
+      },
+      {
+        "name": "Steadfast Ward",
+        "type": "Wards",
+        "desc": "+60 Armor, blocks up to 60 spell damage."
+      },
+      {
+        "name": "Greater Ward",
+        "type": "Wards",
+        "desc": "+80 Armor, blocks up to 80 spell damage."
+      },
+      {
+        "name": "Sun Fire",
+        "type": "Anti-Undead",
+        "desc": "Sunlight ball dealing 25 damage to undead."
+      },
+      {
+        "name": "Repel undead",
+        "type": "Anti-Undead",
+        "desc": "Undead up to level 6 flee for 30s."
+      },
+      {
+        "name": "Stendarr's Aura",
+        "type": "Anti-Undead",
+        "desc": "Melee sun aura: 10 DPS to undead for 60s."
+      },
+      {
+        "name": "Turn Undead",
+        "type": "Anti-Undead",
+        "desc": "Undead up to level 13 flee for 30s."
+      },
+      {
+        "name": "Vampire's Bane",
+        "type": "Anti-Undead",
+        "desc": "Sunlight explosion: 40 damage to undead."
+      },
+      {
+        "name": "Repel undead",
+        "type": "Anti-Undead",
+        "desc": "Affected undead up to level 8 flee for 30s."
+      },
+      {
+        "name": "Protective aura",
+        "type": "Anti-Undead",
+        "desc": "Undead up to level 20 flee the circle."
+      },
+      {
+        "name": "Repel Undead",
+        "type": "Anti-Undead",
+        "desc": "Affected undead up to level 16 flee for 30s."
+      },
+      {
+        "name": "Repel greater",
+        "type": "Anti-Undead",
+        "desc": "Undead up to level 21 flee for 30s."
+      },
+      {
+        "name": "Undead bane",
+        "type": "Anti-Undead",
+        "desc": "Ignites and flees undead up to lvl 30 for 30s."
+      },
+      {
+        "name": "Guardian Circle",
+        "type": "Anti-Undead",
+        "desc": "Frightens undead up to lvl 35; heals 20 HP/s."
+      },
+      {
+        "name": "Necro healing",
+        "type": "Necromantic Healing",
+        "desc": "Heals undead target 10 HP/s."
+      },
+      {
+        "name": "Heal Undead",
+        "type": "Necromantic Healing",
+        "desc": "Heals undead target 75 HP."
+      },
+      {
+        "name": "Poison Rune",
+        "type": "Poison",
+        "desc": "Proximity trap dealing 3 poison DPS for 30s."
+      }
+    ]
+  },
+  "conjuration": {
+    "desc": "Summons Daedra, bound weapons, and reanimated undead to fight for you",
+    "spells": [
+      {
+        "name": "Bound Dagger",
+        "type": "Bound Weapons",
+        "desc": "Summons a magic dagger for 120s."
+      },
+      {
+        "name": "Bound Sword",
+        "type": "Bound Weapons",
+        "desc": "Summons a magic sword for 120s."
+      },
+      {
+        "name": "Bound Battleaxe",
+        "type": "Bound Weapons",
+        "desc": "Summons a magic battle axe for 120s."
+      },
+      {
+        "name": "Bound Bow",
+        "type": "Bound Weapons",
+        "desc": "Summons a magic bow for 120s."
+      },
+      {
+        "name": "Spectral Arrow",
+        "type": "Bound Weapons",
+        "desc": "Fires a ghostly arrow dealing 30 damage and staggering target."
+      },
+      {
+        "name": "Raise Zombie",
+        "type": "Reanimate",
+        "desc": "Reanimates a weak dead body for 60s."
+      },
+      {
+        "name": "Reanimate Corpse",
+        "type": "Reanimate",
+        "desc": "Reanimates a stronger dead body for 60s."
+      },
+      {
+        "name": "Revenant",
+        "type": "Reanimate",
+        "desc": "Reanimates a powerful dead body for 60s."
+      },
+      {
+        "name": "Dread Zombie",
+        "type": "Reanimate",
+        "desc": "Reanimates a very powerful dead body for 60s."
+      },
+      {
+        "name": "Dead Thrall",
+        "type": "Reanimate",
+        "desc": "Permanently reanimates a dead body."
+      },
+      {
+        "name": "Conjure Familiar",
+        "type": "Summoning",
+        "desc": "Summons a familiar for 60s."
+      },
+      {
+        "name": "Summon Unbound Dremora",
+        "type": "Summoning",
+        "desc": "Summons an unbound Dremora."
+      },
+      {
+        "name": "Conjure Boneman",
+        "type": "Summoning",
+        "desc": "Summons a Boneman archer for 60s."
+      },
+      {
+        "name": "Conjure Flame Atronach",
+        "type": "Summoning",
+        "desc": "Summons a Flame Atronach for 60s."
+      },
+      {
+        "name": "Flaming Familiar",
+        "type": "Summoning",
+        "desc": "Summons an explosive charging wolf."
+      },
+      {
+        "name": "Summon Arniel's Shade",
+        "type": "Summoning",
+        "desc": "Summons the Shade of Arniel Gane for 60s."
+      },
+      {
+        "name": "Summon Arvak",
+        "type": "Summoning",
+        "desc": "Summons the horse Arvak."
+      },
+      {
+        "name": "Conjure Ash Spawn",
+        "type": "Summoning",
+        "desc": "Summons an Ash Spawn for 60s."
+      },
+      {
+        "name": "Conjure Frost Atronach",
+        "type": "Summoning",
+        "desc": "Summons a Frost Atronach for 60s."
+      },
+      {
+        "name": "Conjure Mistman",
+        "type": "Summoning",
+        "desc": "Summons a Mistman for 60s."
+      },
+      {
+        "name": "Conjure Seeker",
+        "type": "Summoning",
+        "desc": "Summons a Seeker for 60s."
+      },
+      {
+        "name": "Conjure Ash Guardian",
+        "type": "Summoning",
+        "desc": "Summons a stationary Ash Guardian (requires Heart Stone)."
+      },
+      {
+        "name": "Conjure Dremora Lord",
+        "type": "Summoning",
+        "desc": "Summons a Dremora Lord for 60s."
+      },
+      {
+        "name": "Conjure Wrathman",
+        "type": "Summoning",
+        "desc": "Summons a Wrathman for 60s."
+      },
+      {
+        "name": "Conjure Storm Atronach",
+        "type": "Summoning",
+        "desc": "Summons a Storm Atronach for 60s."
+      },
+      {
+        "name": "Flame Thrall",
+        "type": "Summoning",
+        "desc": "Summons a Flame Atronach permanently."
+      },
+      {
+        "name": "Frost Thrall",
+        "type": "Summoning",
+        "desc": "Summons a Frost Atronach permanently."
+      },
+      {
+        "name": "Storm Thrall",
+        "type": "Summoning",
+        "desc": "Summons a Storm Atronach permanently."
+      },
+      {
+        "name": "Soul Trap",
+        "type": "Daedra Control",
+        "desc": "Traps target's soul if killed within 60s."
+      },
+      {
+        "name": "Banish Daedra",
+        "type": "Daedra Control",
+        "desc": "Sends weak summoned Daedra back to Oblivion."
+      },
+      {
+        "name": "Command Daedra",
+        "type": "Daedra Control",
+        "desc": "Takes control of enemy summoned or raised creatures."
+      },
+      {
+        "name": "Expel Daedra",
+        "type": "Daedra Control",
+        "desc": "Sends powerful summoned Daedra back to Oblivion."
+      }
+    ]
+  },
+  "illusion": {
+    "desc": "Alters perceptions to calm, terrify, confuse, or deceive enemy minds",
+    "spells": [
+      {
+        "name": "Fury",
+        "type": "Mind Control",
+        "desc": "Targets up to level 6 attack anyone nearby for 30s."
+      },
+      {
+        "name": "Fear",
+        "type": "Mind Control",
+        "desc": "Targets up to level 9 flee for 30s."
+      },
+      {
+        "name": "Frenzy",
+        "type": "Mind Control",
+        "desc": "Targets up to level 14 attack anyone nearby for 60s."
+      },
+      {
+        "name": "Frenzy Rune",
+        "type": "Mind Control",
+        "desc": "Proximity trap causing targets up to level 20 to attack anyone nearby for 30s."
+      },
+      {
+        "name": "Rout",
+        "type": "Mind Control",
+        "desc": "Targets up to level 20 flee for 30s."
+      },
+      {
+        "name": "Hysteria",
+        "type": "Mind Control",
+        "desc": "Targets up to level 25 flee for 60s."
+      },
+      {
+        "name": "Mayhem",
+        "type": "Mind Control",
+        "desc": "Targets up to level 25 attack anyone nearby for 60s."
+      },
+      {
+        "name": "Courage",
+        "type": "Buffs",
+        "desc": "Target won't flee for 60s and gains extra health/stamina."
+      },
+      {
+        "name": "Calm",
+        "type": "Buffs",
+        "desc": "Targets up to level 9 won't fight for 30s."
+      },
+      {
+        "name": "Vampire's Seduction",
+        "type": "Buffs",
+        "desc": "Calms targets up to level 10 for 30s."
+      },
+      {
+        "name": "Rally",
+        "type": "Buffs",
+        "desc": "Targets won't flee for 60s and gain extra health/stamina."
+      },
+      {
+        "name": "Pacify",
+        "type": "Buffs",
+        "desc": "Targets up to level 20 won't fight for 60s."
+      },
+      {
+        "name": "Call to Arms",
+        "type": "Buffs",
+        "desc": "Boosts combat skills, health, and stamina for 10 minutes."
+      },
+      {
+        "name": "Harmony",
+        "type": "Buffs",
+        "desc": "Nearby targets up to level 25 won't fight for 60s."
+      },
+      {
+        "name": "Clairvoyance",
+        "type": "Stealth",
+        "desc": "Shows path to current goal."
+      },
+      {
+        "name": "Muffle",
+        "type": "Stealth",
+        "desc": "Move more quietly for 180s."
+      },
+      {
+        "name": "Invisibility",
+        "type": "Stealth",
+        "desc": "Caster becomes invisible for 30s."
+      },
+      {
+        "name": "Vision of the Tenth Eye",
+        "type": "Stealth",
+        "desc": "Reveals Master Illusion texts and gives night vision for 30s."
+      }
+    ]
+  },
+  "alteration": {
+    "desc": "Manipulates physical laws to provide armor, utility, and crowd control",
+    "spells": [
+      {
+        "name": "Oakflesh",
+        "type": "Protection",
+        "desc": "Increases armor rating by 40 for 60s."
+      },
+      {
+        "name": "Stoneflesh",
+        "type": "Protection",
+        "desc": "Increases armor rating by 60 for 60s."
+      },
+      {
+        "name": "Ironflesh",
+        "type": "Protection",
+        "desc": "Increases armor rating by 80 for 60s."
+      },
+      {
+        "name": "Ebonyflesh",
+        "type": "Protection",
+        "desc": "Increases armor rating by 100 for 60s."
+      },
+      {
+        "name": "Dragonhide",
+        "type": "Protection",
+        "desc": "Ignores 80% of physical damage for 30s."
+      },
+      {
+        "name": "Ash Shell",
+        "type": "Crowd Control",
+        "desc": "Immobilizes target in hardened ash for 30s."
+      },
+      {
+        "name": "Ash Rune",
+        "type": "Crowd Control",
+        "desc": "Proximity trap immobilizing enemies in ash for 30s."
+      },
+      {
+        "name": "Paralyze",
+        "type": "Crowd Control",
+        "desc": "Paralyzes target for 10s."
+      },
+      {
+        "name": "Mass Paralysis",
+        "type": "Crowd Control",
+        "desc": "Paralyzes all targets in area for 15s."
+      },
+      {
+        "name": "Candlelight",
+        "type": "Detection",
+        "desc": "Creates a hovering light for 60s."
+      },
+      {
+        "name": "Equilibrium",
+        "type": "Detection",
+        "desc": "Converts Health into Magicka at 25 HP/s."
+      },
+      {
+        "name": "Magelight",
+        "type": "Detection",
+        "desc": "Shoots a sticky light orb lasting 60s."
+      },
+      {
+        "name": "Detect Life",
+        "type": "Detection",
+        "desc": "Reveals living creatures through walls."
+      },
+      {
+        "name": "Telekinesis",
+        "type": "Detection",
+        "desc": "Pulls distant objects toward caster."
+      },
+      {
+        "name": "Transmute",
+        "type": "Detection",
+        "desc": "Converts Iron Ore to Silver, or Silver to Gold."
+      },
+      {
+        "name": "Waterbreathing",
+        "type": "Detection",
+        "desc": "Allows underwater breathing for 60s."
+      },
+      {
+        "name": "Detect Dead",
+        "type": "Detection",
+        "desc": "Reveals dead/undead through walls."
+      }
+    ]
+  }
+}

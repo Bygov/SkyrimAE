@@ -1,0 +1,44 @@
+{
+  "slides": [
+    {
+      "title": "civil war",
+      "desc": "a devastating, province-wide political and ideological schism that ultimately escalates into an all-out, bloody civil war fought between the rebellious nord stormcloaks and the entrenched imperial legion across every hold of skyrim",
+      "image": "images/hero/slider/civil_war.webp"
+    },
+    {
+      "title": "alduin’s return",
+      "desc": "the catastrophic ancient dragon unexpectedly emerges from the temporal stream at the time wound, instantly initiating the devastating skyrim dragon crisis and directly fulfilling the foretold prophecy of the dragonborn",
+      "image": "images/hero/slider/alduin.webp"
+    },
+    {
+      "title": "dragonborn",
+      "desc": "the dramatic and sudden emergence of a mortal bearing a true dragon's soul, possessing the absolute unique ability to permanently slay dragons and devour their soul energy across skyrim",
+      "image": "images/hero/slider/dova.webp"
+    },
+    {
+      "title": "blades reborn",
+      "desc": "the revival of the legendary blades order and the crucial deciphering of alduin's wall to discover the long-lost methods required to defeat the world-eater",
+      "image": "images/hero/slider/blades.webp"
+    },
+    {
+      "title": "miraak’s return",
+      "desc": "the dangerous and terrifying resurgence of the ancient rogue first dragon priest miraak, who actively seeks to enslave the minds of solstheim's inhabitants and bend all living dragons to his absolute will",
+      "image": "images/hero/slider/miraak.webp"
+    },
+    {
+      "title": "volkihar defeat",
+      "desc": "the catastrophic and dramatic downfall of lord harkon at the hands of the last dragonborn and serana, permanently thwarting the terrifying vampire plot to extinguish the sun across tamriel forever",
+      "image": "images/hero/slider/volkihar.webp"
+    },
+    {
+      "title": "time travel",
+      "desc": "utilizing extremely powerful ancient time magic at the mystical time wound atop the throat of the world to directly observe history and master the forgotten dragonrend shout against alduin",
+      "image": "images/hero/slider/time_treval.webp"
+    },
+    {
+      "title": "magnus crisis",
+      "desc": "a catastrophic and extremely dangerous magical disaster at the college of winterhold, triggered by an unstable ancient artifact that directly threatens to tear apart the very fabric of reality across skyrim",
+      "image": "images/hero/slider/magnus.webp"
+    }
+  ]
+}
