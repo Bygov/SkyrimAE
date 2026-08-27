@@ -2,6 +2,8 @@ let magicData = {};
 let shoutsData = [];
 let historySlides = [];
 let currentSlideIndex = 0;
+let currentShoutInterval = null;
+let currentMagicInterval = null;
 
 const DEFAULT_STATE = {
   title: "schools",
@@ -18,11 +20,13 @@ const spellTypeElem = document.getElementById("spellType");
 const spellDescElem = document.getElementById("spellDesc");
 const spellsListElem = document.getElementById("spellsList");
 const schoolBtns = document.querySelectorAll(".school_btn");
+const schoolImageElem = document.getElementById("schoolImage");
 
 const shoutDragonWordElem = document.getElementById("shoutDragonWord");
 const shoutTranslationElem = document.getElementById("shoutTranslation");
 const shoutDescElem = document.getElementById("shoutDesc");
 const shoutsListElem = document.getElementById("shoutsList");
+const shoutImageElem = document.getElementById("shoutImage");
 
 const headerElem = document.querySelector(".header");
 const heroElem = document.querySelector(".hero");
@@ -33,6 +37,14 @@ const historyImageElem = document.getElementById("historyImage");
 const sliderPrevBtn = document.getElementById("sliderPrev");
 const sliderNextBtn = document.getElementById("sliderNext");
 
+const schoolImagesMap = {
+  destruction: { src: "images/magic/destruction.webp", rotate: -45 },
+  restoration: { src: "images/magic/restoration.webp", rotate: -45 },
+  conjuration: { src: "images/magic/conjuration.webp", rotate: -45 },
+  illusion: { src: "images/magic/illusion.webp", rotate: -45 },
+  alteration: { src: "images/magic/alteration.webp", rotate: -45 },
+};
+
 async function init() {
   setDefaultState();
 
@@ -40,6 +52,11 @@ async function init() {
     const spellsResponse = await fetch("./data/spells.json");
     if (spellsResponse.ok) {
       magicData = await spellsResponse.json();
+      if (schoolBtns.length > 0) {
+        const firstSchoolKey = schoolBtns[0].getAttribute("data-school");
+        schoolBtns[0].classList.add("active");
+        renderSpells(firstSchoolKey);
+      }
     }
 
     const shoutsResponse = await fetch("./data/shouts.json");
@@ -83,6 +100,17 @@ function renderSpells(schoolKey) {
 
   if (schoolTitleElem) schoolTitleElem.textContent = schoolKey.toLowerCase();
   if (schoolDescElem) schoolDescElem.textContent = school.desc.toLowerCase();
+
+  if (currentMagicInterval) {
+    clearInterval(currentMagicInterval);
+  }
+
+  const schoolDataObj = schoolImagesMap[schoolKey];
+  if (schoolImageElem && schoolDataObj) {
+    schoolImageElem.src = schoolDataObj.src;
+    schoolImageElem.style.transform = `rotate(${schoolDataObj.rotate}deg)`;
+    schoolImageElem.style.opacity = 1;
+  }
 
   spellsListElem.innerHTML = "";
 
@@ -141,11 +169,36 @@ function renderShouts(shouts) {
       if (shoutTranslationElem)
         shoutTranslationElem.textContent = shout.translation.toLowerCase();
       if (shoutDescElem) shoutDescElem.textContent = shout.desc.toLowerCase();
+
+      if (currentShoutInterval) {
+        clearInterval(currentShoutInterval);
+      }
+
+      const images = shout.images || [];
+      if (shoutImageElem) {
+        if (images.length > 0) {
+          let imgIndex = 0;
+          shoutImageElem.src = images[imgIndex];
+          shoutImageElem.style.opacity = 1;
+
+          if (images.length > 1) {
+            currentShoutInterval = setInterval(() => {
+              shoutImageElem.style.opacity = 0;
+              setTimeout(() => {
+                imgIndex = (imgIndex + 1) % images.length;
+                shoutImageElem.src = images[imgIndex];
+                shoutImageElem.style.opacity = 1;
+              }, 500);
+            }, 5000);
+          }
+        } else {
+          shoutImageElem.style.opacity = 0;
+        }
+      }
     });
 
     shoutsListElem.appendChild(card);
   });
-
   if (shoutsListElem.children[0]) {
     shoutsListElem.children[0].click();
   }
@@ -216,7 +269,7 @@ if (heroElem && headerElem) {
         }
       });
     },
-    { threshold: 0.2 }, 
+    { threshold: 0.2 },
   );
 
   heroObserver.observe(heroElem);
@@ -270,8 +323,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-
-
 const joinBtn = document.getElementById("joinBtn");
 const joinModal = document.getElementById("joinModal");
 const joinClose = document.getElementById("joinClose");
@@ -294,7 +345,7 @@ if (joinBtn) {
 }
 
 if (joinClose) {
-  joinClose.addEventListener("click", closeJoinModal);
+  joinClose.click(closeJoinModal);
 }
 
 if (joinModal) {
