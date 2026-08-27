@@ -9,7 +9,7 @@
     font-family: 'DragonRunes', serif !important;
     font-size: 52px;
     letter-spacing: 0.15em;
-    color: #A0916B;
+    color: var(--color-gold);
 }
 
 .hero {
@@ -22,12 +22,12 @@
 
 .inner_hero {
     height: 100%;
-    padding-top: 115px;
+    padding-top: var(--header-height);
 }
 
 .magic {
     width: 100%;
-    background-color: #12151A;
+    background-color: var(--color-bg-alt);
     padding-top: 70px;
     padding-bottom: 0px;
 }
@@ -46,7 +46,7 @@
 }
 
 .magic_divider.space-70-110 {
-    margin-top: 70px;
+    margin-top: 100px;
     margin-bottom: 110px;
 }
 
@@ -63,7 +63,7 @@
 .divider_rhombus {
     width: 50px;
     height: 50px;
-    border: 1px solid #A0916B;
+    border: 1px solid var(--color-gold);
     transform: rotate(45deg);
     flex-shrink: 0;
 }
@@ -75,12 +75,12 @@
 
 .divider_line.left {
     margin-right: 25px;
-    background: linear-gradient(90deg, transparent 0%, #A0916B 100%);
+    background: linear-gradient(90deg, transparent 0%, var(--color-gold) 100%);
 }
 
 .divider_line.right {
     margin-left: 25px;
-    background: linear-gradient(90deg, #A0916B 0%, transparent 100%);
+    background: linear-gradient(90deg, var(--color-gold) 0%, transparent 100%);
 }
 
 .magic_content {
@@ -100,7 +100,7 @@
 
 .magic_subtitle {
     font-size: 20px;
-    color: #ffffff;
+    color: var(--color-white);
     text-transform: uppercase;
     letter-spacing: 0.12em;
 }
@@ -108,7 +108,7 @@
 .magic_title {
     font-size: 60px;
     font-weight: 700;
-    color: #A0916B;
+    color: var(--color-gold);
     line-height: 1.1;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -117,7 +117,7 @@
 
 .magic_desc {
     font-size: 18px;
-    color: #ffffff;
+    color: var(--color-white);
     letter-spacing: 0.12em;
     line-height: 150%;
     text-transform: uppercase;
@@ -136,9 +136,8 @@
     width: 180px;
     height: 40px;
     background: transparent;
-    border: 1px solid #7E8A9E;
-    color: #7E8A9E;
-    font-family: 'Cinzel', serif;
+    border: 1px solid var(--color-steel);
+    color: var(--color-steel);
     font-size: 18px;
     letter-spacing: 0.12em;
     line-height: 150%;
@@ -153,8 +152,8 @@
 
 .school_btn:hover,
 .school_btn.active {
-    border-color: #A0916B;
-    color: #A0916B;
+    border-color: var(--color-gold);
+    color: var(--color-gold);
 }
 
 .spell_details {
@@ -172,7 +171,7 @@
 .details_line {
     width: 2px;
     height: auto;
-    background-color: #A0916B;
+    background-color: var(--color-gold);
     flex-shrink: 0;
 }
 
@@ -188,7 +187,7 @@
 
 .spell_name {
     font-size: 45px;
-    color: #7E8A9E;
+    color: var(--color-steel);
     letter-spacing: 0.12em;
     line-height: 1.1;
     text-transform: uppercase;
@@ -199,12 +198,12 @@
 }
 
 .spell_name.active {
-    color: #A0916B;
+    color: var(--color-gold);
 }
 
 .spell_type {
     font-size: 18px;
-    color: #7E8A9E;
+    color: var(--color-steel);
     letter-spacing: 0.12em;
     line-height: 1.2;
     text-transform: uppercase;
@@ -214,7 +213,7 @@
 
 .spell_desc {
     font-size: 18px;
-    color: #ffffff;
+    color: var(--color-white);
     letter-spacing: 0.12em;
     line-height: 150%;
     text-transform: uppercase;
@@ -241,7 +240,7 @@
 .spell_card {
     width: 100%;
     height: 50px;
-    border: 1px solid #7E8A9E;
+    border: 1px solid var(--color-steel);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -254,7 +253,7 @@
 .spell_card .card_name,
 .spell_card .card_type {
     font-size: 18px;
-    color: #7E8A9E;
+    color: var(--color-steel);
     letter-spacing: 0.12em;
     line-height: 150%;
     text-transform: uppercase;
@@ -263,14 +262,14 @@
 
 .spell_card:hover,
 .spell_card.active {
-    border-color: #A0916B;
+    border-color: var(--color-gold);
 }
 
 .spell_card:hover .card_name,
 .spell_card:hover .card_type,
 .spell_card.active .card_name,
 .spell_card.active .card_type {
-    color: #A0916B;
+    color: var(--color-gold);
 }
 
 .shouts_list .spell_card {
@@ -293,7 +292,7 @@
 .video_rhombus_outer {
     width: 380px;
     height: 380px;
-    border: 1px solid #A0916B;
+    border: 1px solid var(--color-gold);
     transform: rotate(45deg);
     display: flex;
     justify-content: center;
@@ -303,14 +302,14 @@
 .video_rhombus_inner {
     width: 350px;
     height: 350px;
-    border: 1px solid #A0916B;
+    border: 1px solid var(--color-gold);
     background-color: transparent;
     overflow: hidden;
 }
 
 .history {
     width: 100%;
-    background-color: #161A20;
+    background-color: var(--color-bg);
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -319,7 +318,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: #161A20;
+    background-color: var(--color-bg);
 }
 
 .history_slider_section {
@@ -329,7 +328,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #161A20;
+    background-color: var(--color-bg);
 }
 
 .history_slider_container {
@@ -340,7 +339,7 @@
     justify-content: center;
     margin: 0 auto;
     padding: 0;
-    background-color: #161A20;
+    background-color: var(--color-bg);
 }
 
 .history_slide_content {
@@ -350,7 +349,7 @@
     width: 100%;
     gap: 80px;
     height: auto;
-    background-color: #161A20;
+    background-color: var(--color-bg);
 }
 
 .history_text_block {
@@ -360,14 +359,13 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: #161A20;
+    background-color: var(--color-bg);
 }
 
 .history_title {
-    font-family: 'Cinzel', serif;
     font-size: 50px;
     font-weight: 700;
-    color: #A0916B;
+    color: var(--color-gold);
     line-height: 1.1;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -376,9 +374,8 @@
 }
 
 .history_desc {
-    font-family: 'Cinzel', serif;
     font-size: 20px;
-    color: #ffffff;
+    color: var(--color-white);
     line-height: 1.3;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -391,10 +388,10 @@
     max-width: 564px;
     height: 303px;
     min-height: 303px;
-    border: 3px solid #A0916B;
+    border: 3px solid var(--color-gold);
     flex-shrink: 0;
     overflow: hidden;
-    background-color: #161A20;
+    background-color: var(--color-bg);
     margin-top: 0;
 }
 
@@ -408,12 +405,10 @@
     width: 0;
     height: 0;
     background: transparent;
-    border: none;
     cursor: pointer;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    padding: 0;
     z-index: 10;
     transition: opacity 0.3s ease;
 }
@@ -426,14 +421,14 @@
     left: -70px;
     border-top: 17.5px solid transparent;
     border-bottom: 17.5px solid transparent;
-    border-right: 30px solid #A0916B;
+    border-right: 30px solid var(--color-gold);
 }
 
 .slider_next {
     right: -70px;
     border-top: 17.5px solid transparent;
     border-bottom: 17.5px solid transparent;
-    border-left: 30px solid #A0916B;
+    border-left: 30px solid var(--color-gold);
 }
 
 .history_title,
@@ -451,7 +446,7 @@
 
 .trailer {
     width: 100%;
-    background-color: #12151A;
+    background-color: var(--color-bg-alt);
     padding-top: 90px;
     padding-bottom: 100px;
 }
@@ -464,10 +459,9 @@
 }
 
 .trailer_title {
-    font-family: 'Cinzel', serif;
     font-size: 45px;
     font-weight: 700;
-    color: #A0916B;
+    color: var(--color-gold);
     line-height: 1.1;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -479,7 +473,7 @@
     position: relative;
     width: 683px;
     height: 385px;
-    border: 1px solid #A0916B;
+    border: 1px solid var(--color-gold);
     overflow: hidden;
     flex-shrink: 0;
     background-color: #000;
@@ -507,24 +501,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: transparent;
-    border: none;
-    cursor: pointer;
     z-index: 3;
-    padding: 0;
-    transition: transform 0.3s ease;
 }
 
 .trailer_play_btn svg {
     filter: drop-shadow(0 4px 10px rgba(0,0,0,0.5));
-}
-
-.trailer_poster:hover .trailer_play_btn {
-    transform: translate(-50%, -50%) scale(1.1);
-}
-
-.trailer_poster:hover .yt-btn-bg {
-    fill: #cc0000;
 }
 
 .trailer_frame_wrapper iframe {
@@ -540,26 +521,4 @@
 .trailer_poster.hidden {
     opacity: 0;
     pointer-events: none;
-}
-
-.header {
-    position: fixed;
-    transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1), opacity 1s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header.header-hidden {
-    transform: translateY(-100%);
-    opacity: 0;
-}
-
-.fade-in-element {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-    will-change: opacity, transform;
-}
-
-.fade-in-element.is-visible {
-    opacity: 1;
-    transform: translateY(0);
 }

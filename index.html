@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skyrim Magic</title>
+    <title>Skyrim AE</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
-    
     <link rel="stylesheet" href="css/core.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -17,7 +16,9 @@
             <div class="container">
                 <div class="inner_header">
                     <div class="header_logo">
-                        <div class="logo_link"><img src="images/hero/logo/logo_header.webp" alt="Skyrim Logo"></div>
+                        <a href="index.html" class="logo_link">
+                            <img src="images/hero/logo/logo_header.webp" alt="Skyrim Logo">
+                        </a>
                     </div>
                     <div class="header_nav">
                         <div class="nav_link">world</div>
@@ -25,7 +26,7 @@
                         <div class="nav_link">factions</div>
                         <div class="nav_link">characters</div>
                         <div class="nav_link">artifacts</div>
-                        <div class="nav_link nav_btn">join</div>
+                        <div class="nav_link nav_btn" id="joinBtn">dova</div>
                     </div>
                 </div>
             </div>
@@ -46,7 +47,6 @@
                         <div class="divider_rhombus"></div>
                         <div class="divider_line right"></div>
                     </div>
-
                     <div class="magic_content">
                         <div class="magic_info fade-in-element">
                             <div class="magic_subtitle">magic</div>
@@ -54,7 +54,6 @@
                             <div class="magic_desc" id="schoolDesc">
                                 skyrim has five magic schools grouped under the mage constellation
                             </div>
-
                             <div class="school_buttons" id="schoolButtons">
                                 <div class="school_btn" data-school="destruction">destruction</div>
                                 <div class="school_btn" data-school="restoration">restoration</div>
@@ -62,7 +61,6 @@
                                 <div class="school_btn" data-school="illusion">illusion</div>
                                 <div class="school_btn" data-school="alteration">alteration</div>
                             </div>
-
                             <div class="spell_details">
                                 <div class="details_header">
                                     <div class="details_line"></div>
@@ -73,11 +71,8 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="spells_list" id="spellsList">
-                            </div>
+                            <div class="spells_list" id="spellsList"></div>
                         </div>
-
                         <div class="magic_video_wrapper fade-in-element">
                             <div class="video_rhombus_outer">
                                 <div class="video_rhombus_inner">
@@ -85,13 +80,11 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="magic_divider space-110-110 fade-in-element">
                         <div class="divider_line left"></div>
                         <div class="divider_rhombus"></div>
                         <div class="divider_line right"></div>
                     </div>
-
                     <div class="magic_content shout_content">
                         <div class="magic_info fade-in-element">
                             <div class="magic_subtitle">thu'um</div>
@@ -99,7 +92,6 @@
                             <div class="magic_desc">
                                 the thu'um is skyrim's dragon shout magic powered by tonal voice
                             </div>
-
                             <div class="spell_details">
                                 <div class="details_header">
                                     <div class="details_line"></div>
@@ -110,11 +102,8 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="spells_list shouts_list" id="shoutsList">
-                            </div>
+                            <div class="spells_list shouts_list" id="shoutsList"></div>
                         </div>
-
                         <div class="magic_video_wrapper fade-in-element">
                             <div class="video_rhombus_outer">
                                 <div class="video_rhombus_inner">
@@ -122,7 +111,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="magic_divider space-70-110 fade-in-element">
                         <div class="divider_line left"></div>
                         <div class="divider_rhombus"></div>
@@ -131,7 +119,6 @@
                 </div>
             </div>
         </div>
-
         <div class="history">
             <div class="container">
                 <div class="inner_history">
@@ -140,11 +127,9 @@
                         <div class="divider_rhombus"></div>
                         <div class="divider_line right"></div>
                     </div>
-
                     <div class="history_slider_section fade-in-element">
                         <div class="history_slider_container">
                             <div class="slider_arrow slider_prev" id="sliderPrev"></div>
-                            
                             <div class="history_slide_content">
                                 <div class="history_text_block">
                                     <div class="history_title" id="historyTitle">civil war</div>
@@ -156,11 +141,9 @@
                                     <img src="" alt="History Slide" id="historyImage">
                                 </div>
                             </div>
-
                             <div class="slider_arrow slider_next" id="sliderNext"></div>
                         </div>
                     </div>
-
                     <div class="magic_divider space-70-110 fade-in-element">
                         <div class="divider_line left"></div>
                         <div class="divider_rhombus"></div>
@@ -169,7 +152,6 @@
                 </div>
             </div>
         </div>
-
         <div class="trailer">
             <div class="container">
                 <div class="inner_trailer fade-in-element">
@@ -192,18 +174,68 @@
                 </div>
             </div>
         </div>
-
         <div class="footer">
             <div class="container">
-                <div class="inner_footer fade-in-element">
-                    <div class="footer_logo" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+                <div class="inner_footert">
+                    <a href="index.html" class="footer_logo" onclick="event.preventDefault(); window.scrollTo({top: 0, behavior: 'smooth'});">
                         <img src="images/hero/logo/logo_footer.webp" alt="Skyrim Footer Logo">
-                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="joinModal">
+            <div class="modal_dialog">
+                <div class="modal_content">
+                    <form class="join_form" id="joinForm">
+                        <div class="modal_close" id="joinClose">&times;</div>
+                        <div class="modal_divider">
+                            <div class="divider_line left"></div>
+                            <div class="divider_rhombus"></div>
+                            <div class="divider_line right"></div>
+                        </div>
+                        <div class="modal_title">dova</div>
+                        <div class="modal_desc">enter your details to begin the journey</div>
+                        <label>
+                            <input 
+                                type="text" 
+                                id="joinName" 
+                                name="name" 
+                                placeholder="your name" 
+                                required 
+                                class="modal_input"
+                            >
+                        </label>
+                        <label>
+                            <input 
+                                type="email" 
+                                id="joinEmail" 
+                                name="email" 
+                                placeholder="your email" 
+                                required 
+                                class="modal_input"
+                            >
+                        </label>
+                        <label>
+                            <input 
+                                type="tel" 
+                                id="joinNumber" 
+                                name="number" 
+                                placeholder="your number" 
+                                required 
+                                class="modal_input"
+                            >
+                        </label>
+                        <button type="submit" class="modal_submit">join now</button>
+                        <div class="modal_divider bottom_divider">
+                            <div class="divider_line left"></div>
+                            <div class="divider_rhombus"></div>
+                            <div class="divider_line right"></div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
-
     <script src="js/main.js"></script>
 </body>
 </html>

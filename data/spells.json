@@ -180,7 +180,7 @@
       },
       {
         "name": "Sun Fire",
-        "type": "Anti-Undead",
+        "type": "sun",
         "desc": "Sunlight ball dealing 25 damage to undead."
       },
       {
@@ -190,7 +190,7 @@
       },
       {
         "name": "Stendarr's Aura",
-        "type": "Anti-Undead",
+        "type": "sun",
         "desc": "Melee sun aura: 10 DPS to undead for 60s."
       },
       {
@@ -200,7 +200,7 @@
       },
       {
         "name": "Vampire's Bane",
-        "type": "Anti-Undead",
+        "type": "sun",
         "desc": "Sunlight explosion: 40 damage to undead."
       },
       {
@@ -232,21 +232,6 @@
         "name": "Guardian Circle",
         "type": "Anti-Undead",
         "desc": "Frightens undead up to lvl 35; heals 20 HP/s."
-      },
-      {
-        "name": "Necro healing",
-        "type": "Necromantic Healing",
-        "desc": "Heals undead target 10 HP/s."
-      },
-      {
-        "name": "Heal Undead",
-        "type": "Necromantic Healing",
-        "desc": "Heals undead target 75 HP."
-      },
-      {
-        "name": "Poison Rune",
-        "type": "Poison",
-        "desc": "Proximity trap dealing 3 poison DPS for 30s."
       }
     ]
   },
@@ -276,7 +261,7 @@
       {
         "name": "Spectral Arrow",
         "type": "Bound Weapons",
-        "desc": "Fires a ghostly arrow dealing 30 damage and staggering target."
+        "desc": "fires a ghostly arrow dealing 30 damage."
       },
       {
         "name": "Raise Zombie",
@@ -296,7 +281,7 @@
       {
         "name": "Dread Zombie",
         "type": "Reanimate",
-        "desc": "Reanimates a very powerful dead body for 60s."
+        "desc": "Reanimates a powerful corpse for 60s."
       },
       {
         "name": "Dead Thrall",
@@ -309,17 +294,12 @@
         "desc": "Summons a familiar for 60s."
       },
       {
-        "name": "Summon Unbound Dremora",
-        "type": "Summoning",
-        "desc": "Summons an unbound Dremora."
-      },
-      {
         "name": "Conjure Boneman",
         "type": "Summoning",
         "desc": "Summons a Boneman archer for 60s."
       },
       {
-        "name": "Conjure Flame Atronach",
+        "name": "Flame Atronach",
         "type": "Summoning",
         "desc": "Summons a Flame Atronach for 60s."
       },
@@ -329,52 +309,17 @@
         "desc": "Summons an explosive charging wolf."
       },
       {
-        "name": "Summon Arniel's Shade",
-        "type": "Summoning",
-        "desc": "Summons the Shade of Arniel Gane for 60s."
-      },
-      {
-        "name": "Summon Arvak",
-        "type": "Summoning",
-        "desc": "Summons the horse Arvak."
-      },
-      {
-        "name": "Conjure Ash Spawn",
-        "type": "Summoning",
-        "desc": "Summons an Ash Spawn for 60s."
-      },
-      {
-        "name": "Conjure Frost Atronach",
+        "name": "Frost Atronach",
         "type": "Summoning",
         "desc": "Summons a Frost Atronach for 60s."
       },
       {
-        "name": "Conjure Mistman",
-        "type": "Summoning",
-        "desc": "Summons a Mistman for 60s."
-      },
-      {
-        "name": "Conjure Seeker",
-        "type": "Summoning",
-        "desc": "Summons a Seeker for 60s."
-      },
-      {
-        "name": "Conjure Ash Guardian",
-        "type": "Summoning",
-        "desc": "Summons a stationary Ash Guardian (requires Heart Stone)."
-      },
-      {
-        "name": "Conjure Dremora Lord",
+        "name": "Dremora Lord",
         "type": "Summoning",
         "desc": "Summons a Dremora Lord for 60s."
       },
       {
-        "name": "Conjure Wrathman",
-        "type": "Summoning",
-        "desc": "Summons a Wrathman for 60s."
-      },
-      {
-        "name": "Conjure Storm Atronach",
+        "name": "Storm Atronach",
         "type": "Summoning",
         "desc": "Summons a Storm Atronach for 60s."
       },
@@ -392,26 +337,6 @@
         "name": "Storm Thrall",
         "type": "Summoning",
         "desc": "Summons a Storm Atronach permanently."
-      },
-      {
-        "name": "Soul Trap",
-        "type": "Daedra Control",
-        "desc": "Traps target's soul if killed within 60s."
-      },
-      {
-        "name": "Banish Daedra",
-        "type": "Daedra Control",
-        "desc": "Sends weak summoned Daedra back to Oblivion."
-      },
-      {
-        "name": "Command Daedra",
-        "type": "Daedra Control",
-        "desc": "Takes control of enemy summoned or raised creatures."
-      },
-      {
-        "name": "Expel Daedra",
-        "type": "Daedra Control",
-        "desc": "Sends powerful summoned Daedra back to Oblivion."
       }
     ]
   },
@@ -426,7 +351,7 @@
       {
         "name": "Fear",
         "type": "Mind Control",
-        "desc": "Targets up to level 9 flee for 30s."
+        "desc": "Targets up to level 9 flee in absolute terror for 30s."
       },
       {
         "name": "Frenzy",
@@ -434,19 +359,14 @@
         "desc": "Targets up to level 14 attack anyone nearby for 60s."
       },
       {
-        "name": "Frenzy Rune",
-        "type": "Mind Control",
-        "desc": "Proximity trap causing targets up to level 20 to attack anyone nearby for 30s."
-      },
-      {
         "name": "Rout",
         "type": "Mind Control",
-        "desc": "Targets up to level 20 flee for 30s."
+        "desc": "Targets up to level 20 flee in absolute terror for 30s."
       },
       {
         "name": "Hysteria",
         "type": "Mind Control",
-        "desc": "Targets up to level 25 flee for 60s."
+        "desc": "Targets up to level 25 flee in absolute terror for 60s."
       },
       {
         "name": "Mayhem",
@@ -461,12 +381,7 @@
       {
         "name": "Calm",
         "type": "Buffs",
-        "desc": "Targets up to level 9 won't fight for 30s."
-      },
-      {
-        "name": "Vampire's Seduction",
-        "type": "Buffs",
-        "desc": "Calms targets up to level 10 for 30s."
+        "desc": "Targets up to level 9 are lulled into complete pacifism for 30s."
       },
       {
         "name": "Rally",
@@ -476,7 +391,7 @@
       {
         "name": "Pacify",
         "type": "Buffs",
-        "desc": "Targets up to level 20 won't fight for 60s."
+        "desc": "Targets up to level 20 are lulled into complete pacifism for 60s."
       },
       {
         "name": "Call to Arms",
@@ -491,22 +406,17 @@
       {
         "name": "Clairvoyance",
         "type": "Stealth",
-        "desc": "Shows path to current goal."
+        "desc": "Illuminates the path to the current objective."
       },
       {
         "name": "Muffle",
         "type": "Stealth",
-        "desc": "Move more quietly for 180s."
+        "desc": "Imbues the caster with profound silence, muting movement for 180s."
       },
       {
         "name": "Invisibility",
-        "type": "Stealth",
-        "desc": "Caster becomes invisible for 30s."
-      },
-      {
-        "name": "Vision of the Tenth Eye",
-        "type": "Stealth",
-        "desc": "Reveals Master Illusion texts and gives night vision for 30s."
+        "type": "invisible",
+        "desc": "Shrouds the caster in absolute invisibility for 30s."
       }
     ]
   },
@@ -539,38 +449,23 @@
         "desc": "Ignores 80% of physical damage for 30s."
       },
       {
-        "name": "Ash Shell",
-        "type": "Crowd Control",
-        "desc": "Immobilizes target in hardened ash for 30s."
-      },
-      {
-        "name": "Ash Rune",
-        "type": "Crowd Control",
-        "desc": "Proximity trap immobilizing enemies in ash for 30s."
-      },
-      {
         "name": "Paralyze",
-        "type": "Crowd Control",
+        "type": "paralyze",
         "desc": "Paralyzes target for 10s."
       },
       {
         "name": "Mass Paralysis",
-        "type": "Crowd Control",
+        "type": "paralyze",
         "desc": "Paralyzes all targets in area for 15s."
       },
       {
         "name": "Candlelight",
-        "type": "Detection",
+        "type": "light",
         "desc": "Creates a hovering light for 60s."
       },
       {
-        "name": "Equilibrium",
-        "type": "Detection",
-        "desc": "Converts Health into Magicka at 25 HP/s."
-      },
-      {
         "name": "Magelight",
-        "type": "Detection",
+        "type": "light",
         "desc": "Shoots a sticky light orb lasting 60s."
       },
       {
@@ -580,13 +475,13 @@
       },
       {
         "name": "Telekinesis",
-        "type": "Detection",
+        "type": "Telekinesis",
         "desc": "Pulls distant objects toward caster."
       },
       {
         "name": "Transmute",
         "type": "Detection",
-        "desc": "Converts Iron Ore to Silver, or Silver to Gold."
+        "desc": "Changes iron to silver or silver to gold."
       },
       {
         "name": "Waterbreathing",

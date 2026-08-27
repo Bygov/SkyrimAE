@@ -202,20 +202,38 @@ schoolBtns.forEach((btn) => {
 });
 
 if (heroElem && headerElem) {
+  let lastScrollTop = 0;
+  let isHeroVisible = true;
+
   const heroObserver = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          headerElem.classList.remove("header-hidden");
-        } else {
+        isHeroVisible = entry.isIntersecting;
+        if (!isHeroVisible) {
           headerElem.classList.add("header-hidden");
+        } else {
+          headerElem.classList.remove("header-hidden");
         }
       });
     },
-    { threshold: 0.5 },
+    { threshold: 0.2 }, 
   );
 
   heroObserver.observe(heroElem);
+  window.addEventListener("scroll", () => {
+    if (!isHeroVisible) return;
+
+    let currentScroll =
+      window.pageYOffset || document.documentElement.scrollTop;
+
+    if (currentScroll > lastScrollTop && currentScroll > 20) {
+      headerElem.classList.add("header-hidden");
+    } else {
+      headerElem.classList.remove("header-hidden");
+    }
+
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+  });
 }
 
 const observerOptions = {
@@ -239,7 +257,6 @@ document.querySelectorAll(".fade-in-element").forEach((elem) => {
 
 init();
 
-
 document.addEventListener("DOMContentLoaded", () => {
   const trailerPoster = document.getElementById("trailerPoster");
   const trailerIframe = document.getElementById("trailerIframe");
@@ -252,3 +269,63 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+
+
+const joinBtn = document.getElementById("joinBtn");
+const joinModal = document.getElementById("joinModal");
+const joinClose = document.getElementById("joinClose");
+const joinForm = document.getElementById("joinForm");
+
+function openJoinModal() {
+  if (!joinModal) return;
+  joinModal.classList.add("is-open");
+  document.body.style.overflow = "hidden";
+}
+
+function closeJoinModal() {
+  if (!joinModal) return;
+  joinModal.classList.remove("is-open");
+  document.body.style.overflow = "";
+}
+
+if (joinBtn) {
+  joinBtn.addEventListener("click", openJoinModal);
+}
+
+if (joinClose) {
+  joinClose.addEventListener("click", closeJoinModal);
+}
+
+if (joinModal) {
+  joinModal.addEventListener("click", (e) => {
+    if (e.target === joinModal || e.target.classList.contains("modal_dialog")) {
+      closeJoinModal();
+    }
+  });
+}
+
+document.addEventListener("keydown", (e) => {
+  if (
+    e.key === "Escape" &&
+    joinModal &&
+    joinModal.classList.contains("is-open")
+  ) {
+    closeJoinModal();
+  }
+});
+
+if (joinForm) {
+  joinForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    const name = document.getElementById("joinName").value.trim();
+    const email = document.getElementById("joinEmail").value.trim();
+    const number = document.getElementById("joinNumber").value.trim();
+
+    console.log("Join form submitted:", { name, email, number });
+
+    joinForm.reset();
+    closeJoinModal();
+  });
+}
