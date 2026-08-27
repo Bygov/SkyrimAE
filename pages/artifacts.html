@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyrim AE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/core.css">
+    <link rel="stylesheet" href="../css/artifacts.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="container">
+                <div class="inner_header">
+                    <div class="header_logo">
+                        <a href="../index.html" class="logo_link">
+                            <img src="../images/hero/logo/logo_header.webp" alt="Skyrim Logo">
+                        </a>
+                    </div>
+                    <div class="header_nav">
+                        <a href="world.html" class="nav_link">world</a>
+                        <a href="lore.html" class="nav_link">lore</a>
+                        <a href="artifacts.html" class="nav_link">artifacts</a>
+                        <a href="#" class="nav_link">factions</a>
+                        <div class="nav_link nav_btn" id="joinBtn">dova</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="container">
+                <div class="artifacts-section">
+                    <div class="section-divider">
+                        <h2>DAEDRIC</h2>
+                    </div>
+                    <div class="artifacts-grid" id="daedricGrid"></div>
+                </div>
+                <div class="artifacts-section">
+                    <div class="section-divider">
+                        <h2>PRIEST MASKS</h2>
+                    </div>
+                    <div class="artifacts-grid" id="priestGrid"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="inner_footert">
+                    <a href="../index.html" class="footer_logo" onclick="event.preventDefault(); window.scrollTo({top: 0, behavior: 'smooth'});">
+                        <img src="../images/hero/logo/logo_footer.webp" alt="Skyrim Footer Logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="joinModal">
+            <div class="modal_dialog">
+                <div class="modal_content">
+                    <form class="join_form" id="joinForm">
+                        <div class="modal_close" id="joinClose">&times;</div>
+                        <div class="modal_divider">
+                            <div class="divider_line left"></div>
+                            <div class="divider_rhombus"></div>
+                            <div class="divider_line right"></div>
+                        </div>
+                        <div class="modal_title">dova</div>
+                        <div class="modal_desc">enter your details to begin the journey</div>
+                        <label>
+                            <input 
+                                type="text" 
+                                id="joinName" 
+                                name="name" 
+                                placeholder="your name" 
+                                required 
+                                class="modal_input"
+                            >
+                        </label>
+                        <label>
+                            <input 
+                                type="email" 
+                                id="joinEmail" 
+                                name="email" 
+                                placeholder="your email" 
+                                required 
+                                class="modal_input"
+                            >
+                        </label>
+                        <label>
+                            <input 
+                                type="tel" 
+                                id="joinNumber" 
+                                name="number" 
+                                placeholder="your number" 
+                                required 
+                                class="modal_input"
+                            >
+                        </label>
+                        <button type="submit" class="modal_submit">join now</button>
+                        <div class="modal_divider bottom_divider">
+                            <div class="divider_line left"></div>
+                            <div class="divider_rhombus"></div>
+                            <div class="divider_line right"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/artifacts.js"></script>
+    <script src="../js/modal.js"></script>
+</body>
+</html>

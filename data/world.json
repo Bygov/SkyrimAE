@@ -1,0 +1,66 @@
+[
+  {
+    "name": "SKYRIM",
+    "region": "TAMRIEL",
+    "info": "SKYRIM IS THE HARSH, MAJESTIC NORTHERN PROVINCE OF TAMRIEL AND HOME TO THE NORDS. FAMOUS FOR ITS SNOWY PEAKS, DENSE FORESTS, AND ANCIENT DRAGON RUINS, IT IS A LEGENDARY LAND OF EPIC ADVENTURE AND RUGGED BEAUTY",
+    "image": "../images/world/mini/skyrim.webp"
+  },
+  {
+    "cities": {
+      "solitude": {
+        "title": "solitude",
+        "subtitle": "haafigar",
+        "desc": "the capital of skyrim and seat of the high king, majestically perched on a giant rock arch above the sea of ghosts. it is the wealthiest and most cosmopolitan city in the province.",
+        "image": "../images/world/mini/big_city/solitude.webp"
+      },
+      "dawnstar": {
+        "title": "dawnstar",
+        "subtitle": "the pale",
+        "desc": "a freezing, wind-swept port town on the northern coast, built around bustling iron and quicksilver mines. known for its bitter polar cold, restless fishermen, and mysterious nightmares.",
+        "image": "../images/world/mini/big_city/dawnstar.webp"
+      },
+      "winterhold": {
+        "title": "winterhold",
+        "subtitle": "winterhold hold",
+        "desc": "a desolate, ruined cliffside town perched precariously over the icy sea of ghosts, once the grand capital of skyrim. today, it is a haunting reminder of past glory.",
+        "image": "../images/world/mini/big_city/winterhold.webp"
+      },
+      "morthal": {
+        "title": "morthal",
+        "subtitle": "hjaalmarch",
+        "desc": "a gloomy, isolated town built among the misty and treacherous marshes of the northern lowlands. constantly shrouded in thick fog, it is a quiet, eerie settlement.",
+        "image": "../images/world/mini/big_city/morthal.webp"
+      },
+      "windhelm": {
+        "title": "windhelm",
+        "subtitle": "eastmarch",
+        "desc": "the ancient, snow-swept city of stone founded by ysgramor himself, serving as the formidable capital of the stormcloak rebellion. it features massive imperial architecture.",
+        "image": "../images/world/mini/big_city/windhelm.webp"
+      },
+      "markarth": {
+        "title": "markarth",
+        "subtitle": "the reach",
+        "desc": "a formidable fortress-city carved entirely from ancient dwemer stone into the sheer rock walls of a mountain gorge. it is a grim and rugged capital plagued by silver-mine unrest.",
+        "image": "../images/world/mini/big_city/markarth.webp"
+      },
+      "whiterun": {
+        "title": "whiterun",
+        "subtitle": "whiterun hold",
+        "desc": "a bustling trading hub and the spiritual heart of skyrim, built upon a massive rock outcropping in the center of the tundra. it is divided into distinct tiers culminating in dragonsreach.",
+        "image": "../images/world/mini/big_city/whiterun.webp"
+      },
+      "falkreath": {
+        "title": "falkreath",
+        "subtitle": "falkreath hold",
+        "desc": "a quiet, somber town nestled deep within dense, perpetually shadowed pine forests and surrounded by massive ancient graveyards where death is a constant neighbor.",
+        "image": "../images/world/mini/big_city/falkreath.webp"
+      },
+      "riften": {
+        "title": "riften",
+        "subtitle": "the rift",
+        "desc": "a colorful yet deeply corrupt autumn-hued port city ruled from the shadows by the thieves guild and the black-briar family, nestled among golden forests and shimmering lakes.",
+        "image": "../images/world/mini/big_city/riften.webp"
+      }
+    }
+  }
+]

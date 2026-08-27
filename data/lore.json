@@ -1,0 +1,102 @@
+[
+  {
+    "date": "ME",
+    "title": "Arrival of Ysgramor in Skyrim",
+    "desc": "The first human colonists, led by Ysgramor, arrive from the continent of Atmora and establish the legendary city of Saarthal."
+  },
+  {
+    "date": "ME",
+    "title": "The Night of Tears",
+    "desc": "Snow Elves launch a surprise attack on Saarthal and burn it to the ground, attempting to claim the buried artifact — the Eye of Magnus."
+  },
+  {
+    "date": "ME",
+    "title": "Return of the Five Hundred Companions",
+    "desc": "Ysgramor returns with an army of 500 warriors, completely annihilating the Elven civilization in the north and founding the Companions."
+  },
+  {
+    "date": "ME",
+    "title": "Betrayal of the Dwemer",
+    "desc": "Defeated Snow Elves beg the Dwemer for refuge, but the Dwemer blind them with toxic fungi, turning them into the feral Falmer sub-race."
+  },
+  {
+    "date": "ME",
+    "title": "The Dragon War & Banishing of Alduin",
+    "desc": "Mankind rebels against the tyranny of the Dragon Cult, and ancient heroes send Alduin the World-Eater through time using an Elder Scroll."
+  },
+  {
+    "date": "1E 143",
+    "title": "Unification of Skyrim",
+    "desc": "King Harald eradicates the remnants of the Dragon Cult and unites Skyrim under a single Nordic crown."
+  },
+  {
+    "date": "1E 420",
+    "title": "Exploit of Olaf One-Eye",
+    "desc": "High King Olaf captures the fierce dragon Numinex and imprisons him inside Dragonsreach fortress in Whiterun."
+  },
+  {
+    "date": "1E 700",
+    "title": "Disappearance of the Dwemer",
+    "desc": "During the Battle of Red Mountain, the entire Dwemer race mysteriously vanishes, leaving behind deserted underground strongholds."
+  },
+  {
+    "date": "1E 2703",
+    "title": "Akaviri Invasion",
+    "desc": "Serpent-folk from the distant continent of Akavir invade Skyrim, build Sky Haven Temple, and carve the Dragonborn Prophecy onto Alduin's Wall."
+  },
+  {
+    "date": "2E 896",
+    "title": "Rise of Talos",
+    "desc": "Tiber Septim unites all provinces into the Third Empire, later ascending into the pantheon of Nine Divines under the name Talos."
+  },
+  {
+    "date": "3E 120",
+    "title": "War of the Red Diamond",
+    "desc": "Wolf Queen Potema of Solitude unleashes a bloody civil war for the Imperial throne, wielding dark magic and necromancy."
+  },
+  {
+    "date": "3E 433",
+    "title": "The Oblivion Crisis",
+    "desc": "Gates of Oblivion open across Skyrim during Mehrunes Dagon's invasion, leading to the demise of the Septim Dynasty."
+  },
+  {
+    "date": "4E 5",
+    "title": "The Red Year",
+    "desc": "The eruption of Red Mountain devastates Morrowind, triggering a massive migration of Dark Elf refugees into Windhelm."
+  },
+  {
+    "date": "4E 122",
+    "title": "The Great Collapse",
+    "desc": "A catastrophic storm collapses most of the capital city of Winterhold into the sea, leaving only the College of Winterhold untouched."
+  },
+  {
+    "date": "4E 171",
+    "title": "Beginning of the Great War",
+    "desc": "The Aldmeri Dominion wages a devastating war against the Empire, bringing the provinces to the brink of collapse."
+  },
+  {
+    "date": "4E 175",
+    "title": "The White-Gold Concordat",
+    "desc": "The Empire signs a humiliating peace treaty with the Thalmor, officially banning the worship of Talos across Skyrim."
+  },
+  {
+    "date": "4E 176",
+    "title": "The Markarth Incident",
+    "desc": "Ulfric Stormcloak forcibly expels the Reachmen insurgents from Markarth, but is arrested for demanding freedom of religion."
+  },
+  {
+    "date": "4E 201",
+    "title": "Outbreak of the Civil War",
+    "desc": "Ulfric Stormcloak kills High King Torygg in a duel in Solitude, splitting Skyrim into two warring factions."
+  },
+  {
+    "date": "4E 201",
+    "title": "Return of Alduin",
+    "desc": "Alduin the Firstborn emerges from the time rupture at the Throat of the World and destroys Helgen, signaling the Dragon Crisis."
+  },
+  {
+    "date": "4E 201",
+    "title": "Emergence of the Last Dragonborn",
+    "desc": "The Last Dragonborn appears, absorbing dragon souls, defeating Alduin in Sovngarde, and stopping the ancient threats of Miraak and Harkon."
+  }
+]

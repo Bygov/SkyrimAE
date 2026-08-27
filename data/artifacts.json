@@ -1,0 +1,186 @@
+{
+  "daedric": [
+    {
+      "name": "DAWNBREAKER",
+      "by": "Meridia",
+      "type": "Weapon",
+      "img": "../images/artifacts/dawnbreaker.webp"
+    },
+    {
+      "name": "MEHRUNES' RAZOR",
+      "by": "Mehrunes Dagon",
+      "type": "Weapon",
+      "img": "../images/artifacts/mehrunes_razor.webp"
+    },
+    {
+      "name": "MACE OF MOLAG BAL",
+      "by": "Molag Bal",
+      "type": "Weapon",
+      "img": "../images/artifacts/mace_of_molag_bal.webp"
+    },
+    {
+      "name": "EBONY BLADE",
+      "by": "Mephala",
+      "type": "Weapon",
+      "img": "../images/artifacts/ebony_blade.webp"
+    },
+    {
+      "name": "VOLENDRUNG",
+      "by": "Malacath",
+      "type": "Weapon",
+      "img": "../images/artifacts/volendrung.webp"
+    },
+    {
+      "name": "SANGUINE ROSE",
+      "by": "Sanguine",
+      "type": "Weapon",
+      "img": "../images/artifacts/sanguine_rose.webp"
+    },
+    {
+      "name": "WABBAJACK",
+      "by": "Sheogorath",
+      "type": "Weapon",
+      "img": "../images/artifacts/wabbajack.webp"
+    },
+    {
+      "name": "SKULL OF CORRUPTION",
+      "by": "Vaermina",
+      "type": "Weapon",
+      "img": "../images/artifacts/skull_of_corruption.webp"
+    },
+    {
+      "name": "EBONY MAIL",
+      "by": "Boethiah",
+      "type": "Armor",
+      "img": "../images/artifacts/ebony_mail.webp"
+    },
+    {
+      "name": "SPELLBREAKER",
+      "by": "Peryite",
+      "type": "Armor",
+      "img": "../images/artifacts/spellbreaker.webp"
+    },
+    {
+      "name": "CLAVICUS' MASQUE",
+      "by": "Clavicus Vile",
+      "type": "Armor",
+      "img": "../images/artifacts/clavicus_masque.webp"
+    },
+    {
+      "name": "SAVIOR'S HIDE",
+      "by": "Hircine",
+      "type": "Armor",
+      "img": "../images/artifacts/saviors_hide.webp"
+    },
+    {
+      "name": "AZURA'S STAR",
+      "by": "Azura",
+      "type": "Misc",
+      "img": "../images/artifacts/azuras_star.webp"
+    },
+    {
+      "name": "OGHMA INFINIUM",
+      "by": "Hermaeus Mora",
+      "type": "Misc",
+      "img": "../images/artifacts/oghma_infinium.webp"
+    },
+    {
+      "name": "RING OF NAMIRA",
+      "by": "Namira",
+      "type": "Misc",
+      "img": "../images/artifacts/ring_of_namira.webp"
+    },
+    {
+      "name": "RING OF HIRCINE",
+      "by": "Hircine",
+      "type": "Misc",
+      "img": "../images/artifacts/ring_of_hircine.webp"
+    }
+  ],
+  "priestMasks": [
+    {
+      "name": "KONAHRIK",
+      "by": "Bromjunaar Sanctuary",
+      "type": "Armor",
+      "img": "../images/artifacts/konahrik.webp"
+    },
+    {
+      "name": "MOROKEI",
+      "by": "Morokei",
+      "type": "Armor",
+      "img": "../images/artifacts/morokei.webp"
+    },
+    {
+      "name": "NAHKRIIN",
+      "by": "Nahkriin",
+      "type": "Armor",
+      "img": "../images/artifacts/nahkriin.webp"
+    },
+    {
+      "name": "KROSIS",
+      "by": "Krosis",
+      "type": "Armor",
+      "img": "../images/artifacts/krosis.webp"
+    },
+    {
+      "name": "RAHGOT",
+      "by": "Rahgot",
+      "type": "Armor",
+      "img": "../images/artifacts/rahgot.webp"
+    },
+    {
+      "name": "VOKUN",
+      "by": "Vokun",
+      "type": "Armor",
+      "img": "../images/artifacts/vokun.webp"
+    },
+    {
+      "name": "HEVNORAAK",
+      "by": "Hevnoraak",
+      "type": "Armor",
+      "img": "../images/artifacts/hevnoraak.webp"
+    },
+    {
+      "name": "OTAR",
+      "by": "Otar the Mad",
+      "type": "Armor",
+      "img": "../images/artifacts/otar.webp"
+    },
+    {
+      "name": "VOLSUNG",
+      "by": "Volsung",
+      "type": "Armor",
+      "img": "../images/artifacts/volsung.webp"
+    },
+    {
+      "name": "WOODEN MASK",
+      "by": "Labyrinthian",
+      "type": "Armor",
+      "img": "../images/artifacts/wooden_mask.webp"
+    },
+    {
+      "name": "MIRAAK",
+      "by": "Miraak",
+      "type": "Armor",
+      "img": "../images/artifacts/miraak.webp"
+    },
+    {
+      "name": "AHZIDAL",
+      "by": "Ahzidal",
+      "type": "Armor",
+      "img": "../images/artifacts/ahzidal.webp"
+    },
+    {
+      "name": "DUKAAN",
+      "by": "Dukaan",
+      "type": "Armor",
+      "img": "../images/artifacts/dukaan.webp"
+    },
+    {
+      "name": "ZAHKRIISOS",
+      "by": "Zahkriisos",
+      "type": "Armor",
+      "img": "../images/artifacts/zahkriisos.webp"
+    }
+  ]
+}

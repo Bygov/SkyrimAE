@@ -1,0 +1,212 @@
+.main-content {
+    width: 100%;
+    padding-top: var(--header-height);
+    padding-bottom: 0;
+    flex: 0 0 auto;
+}
+
+.main-content .container {
+    max-width: 100% !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
+.content-wrapper {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - var(--header-height));
+    min-height: 650px;
+    gap: 0;
+}
+
+.left-sidebar,
+.right-sidebar {
+    height: 100%;
+    background-color: var(--color-bg-alt);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    gap: 15px; 
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.left-sidebar {
+    width: 202px;
+    min-width: 202px;
+    border-left: 1px solid rgba(160, 145, 107, 0.15);
+    border-right: 1px solid rgba(160, 145, 107, 0.15);
+}
+
+.right-sidebar {
+    width: 315px;
+    min-width: 315px;
+    border-left: 1px solid rgba(160, 145, 107, 0.15);
+    border-right: 1px solid rgba(160, 145, 107, 0.15);
+}
+
+.page-divider {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.left-sidebar .page-divider:last-child,
+.right-sidebar .page-divider:last-child {
+    margin-top: auto;
+    padding-bottom: 20px;
+}
+
+.divider-line-left,
+.divider-line-right {
+    height: 1px;
+    flex: 1;
+}
+
+.divider-line-left {
+    background: linear-gradient(to left, var(--color-gold), transparent);
+}
+
+.divider-line-right {
+    background: linear-gradient(to right, var(--color-gold), transparent);
+}
+
+.divider-rhombus {
+    width: 18px;
+    height: 18px;
+    border: 1px solid var(--color-gold);
+    transform: rotate(45deg);
+    background-color: var(--color-bg-alt);
+    margin: 0 8px;
+    flex-shrink: 0;
+}
+
+.sidebar-block {
+    padding-left: 30px;
+}
+
+.sidebar-heading {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color-gold);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.sidebar-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar-link {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--color-steel);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    line-height: 1.2;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.sidebar-link:hover {
+    color: var(--color-gold);
+}
+
+.map-section {
+    flex: 1;
+    height: 100%;
+    min-width: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-bg);
+    overflow: hidden;
+}
+
+.map-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/world/world.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.7));
+}
+
+.city-pin {
+    position: absolute;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.city-pin:hover {
+    transform: translate(-50%, -50%) scale(1.15);
+    filter: drop-shadow(0 0 8px var(--color-gold));
+}
+
+.city-pin img {
+    display: block;
+    height: auto;
+}
+
+.right-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.info-frame {
+    width: 251px;
+    height: 136px;
+    flex-shrink: 0;
+    border: 2px solid var(--color-gold);
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.info-title {
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--color-gold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.1;
+    margin-bottom: 5px;
+}
+
+.info-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-steel);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.info-text {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-white);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.05em;
+    line-height: 140%;
+}

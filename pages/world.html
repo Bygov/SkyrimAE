@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyrim AE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/core.css">
+    <link rel="stylesheet" href="../css/world.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="container">
+                <div class="inner_header">
+                    <div class="header_logo">
+                        <a href="../index.html" class="logo_link">
+                            <img src="../images/hero/logo/logo_header.webp" alt="Skyrim Logo">
+                        </a>
+                    </div>
+                    <div class="header_nav">
+                        <a href="world.html" class="nav_link">world</a>
+                        <a href="lore.html" class="nav_link">lore</a>
+                        <a href="artifacts.html" class="nav_link">artifacts</a>
+                        <a href="#" class="nav_link">factions</a>
+                        <div class="nav_link nav_btn" id="joinBtn">dova</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="container content-wrapper">
+                <div class="left-sidebar">
+                    <div class="page-divider">
+                        <div class="divider-line-left"></div>
+                        <div class="divider-rhombus"></div>
+                        <div class="divider-line-right"></div>
+                    </div>
+            
+                    <div class="sidebar-block">
+                        <div class="sidebar-heading">LOCATION</div>
+                        <div class="sidebar-list">
+                            <div class="sidebar-link">Cities</div>
+                            <div class="sidebar-link">Factions</div>
+                            <div class="sidebar-link">Remote</div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-block">
+                        <div class="sidebar-heading">DUNGEONS</div>
+                        <div class="sidebar-list">
+                            <div class="sidebar-link">Lairs</div>
+                            <div class="sidebar-link">Shelters</div>
+                            <div class="sidebar-link">Ruins</div>
+                        </div>
+                    </div>
+
+                    <div class="page-divider">
+                        <div class="divider-line-left"></div>
+                        <div class="divider-rhombus"></div>
+                        <div class="divider-line-right"></div>
+                    </div>
+                </div>
+                <div class="map-section">
+                    <div class="map-image-wrapper">
+                        <div class="city-pin" data-city="solitude" style="top: 15%; left: 31.1%;" title="Solitude">
+                            <img src="../images/world/logo/big-city/solitude.svg" alt="Solitude">
+                        </div>
+                        <div class="city-pin" data-city="dawnstar" style="top: 15.7%; left: 56.55%;;" title="Dawnstar">
+                            <img src="../images/world/logo/big-city/dawnstar.svg" alt="Dawnstar">
+                        </div>
+                        <div class="city-pin" data-city="winterhold" style="top: 17%; left: 76.1%;" title="Winterhold">
+                            <img src="../images/world/logo/big-city/winterhold.svg" alt="Winterhold">
+                        </div>
+                        <div class="city-pin" data-city="morthal" style="top: 30%; left: 39%;" title="Morthal">
+                            <img src="../images/world/logo/big-city/morthal.svg" alt="Morthal">
+                        </div>
+                        <div class="city-pin" data-city="windhelm" style="top: 38%; left: 80.7%;" title="Windhelm">
+                            <img src="../images/world/logo/big-city/windhelm.svg" alt="Windhelm">
+                        </div>
+                        <div class="city-pin" data-city="markarth" style="top: 50%; left: 4.55%;" title="Markarth">
+                            <img src="../images/world/logo/big-city/markarth.svg" alt="Markarth">
+                        </div>
+                        <div class="city-pin" data-city="whiterun" style="top: 52%; left: 54.3%;" title="Whiterun">
+                            <img src="../images/world/logo/big-city/whiterun.svg" alt="Whiterun">
+                        </div>
+                        <div class="city-pin" data-city="falkreath" style="top: 82%; left: 40.9%;" title="Falkreath">
+                            <img src="../images/world/logo/big-city/falkreath.svg" alt="Falkreath">
+                        </div>
+                        <div class="city-pin" data-city="riften" style="top: 84%; left: 93%;" title="Riften">
+                            <img src="../images/world/logo/big-city/riften.svg" alt="Riften">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-sidebar">
+                    <div class="page-divider">
+                        <div class="divider-line-left"></div>
+                        <div class="divider-rhombus"></div>
+                        <div class="divider-line-right"></div>
+                    </div>
+
+                    <div class="right-content">
+                        <div class="info-frame" id="info-image"></div>
+                        <div id="info-name" class="info-title">SKYRIM</div>
+                        <div id="info-region" class="info-subtitle">TAMRIEL</div>
+                        <div id="info-desc" class="info-text">Loading...</div>
+                    </div>
+
+                    <div class="page-divider">
+                        <div class="divider-line-left"></div>
+                        <div class="divider-rhombus"></div>
+                        <div class="divider-line-right"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="inner_footert">
+                    <a href="../index.html" class="footer_logo" onclick="event.preventDefault(); window.scrollTo({top: 0, behavior: 'smooth'});">
+                        <img src="../images/hero/logo/logo_footer.webp" alt="Skyrim Footer Logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="joinModal">
+            <div class="modal_dialog">
+                <div class="modal_content">
+                    <form class="join_form" id="joinForm">
+                        <div class="modal_close" id="joinClose">&times;</div>
+                        <div class="modal_divider">
+                            <div class="divider_line left"></div>
+                            <div class="divider_rhombus"></div>
+                            <div class="divider_line right"></div>
+                        </div>
+                        <div class="modal_title">dova</div>
+                        <div class="modal_desc">enter your details to begin the journey</div>
+                        <label>
+                            <input 
+                                type="text" 
+                                id="joinName" 
+                                name="name" 
+                                placeholder="your name" 
+                                required 
+                                class="modal_input"
+                            >
+                        </label>
+                        <label>
+                            <input 
+                                type="email" 
+                                id="joinEmail" 
+                                name="email" 
+                                placeholder="your email" 
+                                required 
+                                class="modal_input"
+                            >
+                        </label>
+                        <label>
+                            <input 
+                                type="tel" 
+                                id="joinNumber" 
+                                name="number" 
+                                placeholder="your number" 
+                                required 
+                                class="modal_input"
+                            >
+                        </label>
+                        <button type="submit" class="modal_submit">join now</button>
+                        <div class="modal_divider bottom_divider">
+                            <div class="divider_line left"></div>
+                            <div class="divider_rhombus"></div>
+                            <div class="divider_line right"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/world.js"></script>
+    <script src="../js/modal.js"></script>
+</body>
+</html>
